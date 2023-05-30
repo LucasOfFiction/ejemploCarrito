@@ -1,3 +1,4 @@
+import React from "react";
 import { TYPES } from "../actions/actions";
 import CartItem from "./CartItem";
 import { useContext, useSelector, useState} from "react";
@@ -7,6 +8,7 @@ import { Dispatch } from "react";
 import Badge from '@mui/material/Badge';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
+
 
 function DropdownCart() {
     {/*DECLARANDO PROPIEDADES QUE UTILIZARÉ DE MI CONTEXTO */}

@@ -1,5 +1,5 @@
-
-
+import React from 'react'
+import { useContext } from 'react'
 import './App.css'
 import ShoppingCart from './components/ShopingCart'
 import DropdownCart from './components/DropdownCart'

@@ -1,3 +1,4 @@
+import React from "react";
 import { TYPES } from "../actions/actions";
 import { useReducer, useEffect } from "react";
 import { shoppingReducer, shoppingInitialState } from "../reducer/reducer";
@@ -6,6 +7,7 @@ import axios from "axios";
 import Product from "./Product";
 import CartItem from "./CartItem";
 import CartContext from "../context/CartContext";
+
 
 
 
