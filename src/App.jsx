@@ -6,7 +6,6 @@ import DropdownCart from './components/DropdownCart'
 
 function App() {
 
-
   return (
     <div className="App">
 

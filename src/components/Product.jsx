@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from '../styles/products.css';
 
+
 const Product = ({data, addToCart}) => {
 
     const {id, name, price} = data;
